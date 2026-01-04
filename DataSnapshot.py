@@ -1,5 +1,12 @@
-#!/usr/bin/env python3
-# summarize_csv.py
+# TimeSeriesExplorer.py
+# Python utility that summarizes the contents of a CSV file. Script will prompt for source and return
+#Per-column statistics (data type, counts, unique values, numeric stats, top frequent value).
+#Null and empty string counts.
+#Overall file metadata (row/column counts, rows with null/empty values).
+# Author: Sarah Mason
+# Date: 2026-01-04
+
+
 import argparse
 import pandas as pd
 import os
@@ -156,3 +163,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
